@@ -4,6 +4,7 @@
 // Create program
 const canvas = document.getElementById("canvas");
 const gl = canvas.getContext('webgl');
+// How to load these in without utils
 const program = webglUtils.createProgramFromScripts(gl, ['vertex-shader', 'fragment-shader']);
 
 // Create and initialize buffer
