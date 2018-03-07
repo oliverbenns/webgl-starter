@@ -6,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/img/favicon.png">
     <style>
-      body { margin: 0; display: flex; align-items: center; justify-content: center; height: 100vh; background: #111 }
+      body html, body {
+        background: #111;
+        overflow: hidden;
+        margin: 0;
+      }
+
+      canvas {
+        width: 100vw;
+        height: 100vh;
+      }
     </style>
   </head>
   <body>
