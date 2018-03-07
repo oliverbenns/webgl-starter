@@ -29,5 +29,5 @@
   "scripts": {
     "develop": "webpack-dev-server --hot --inline",
     "build": "NODE_ENV=production webpack"
-  },
+  }
 }
