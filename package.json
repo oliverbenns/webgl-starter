@@ -1,7 +1,7 @@
 {
   "name": "webgl-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple starter project to start developing with WebGL easily. With Webpack, ES6 transpiling and page reloading.",
   "main": "index.js",
   "repository": {
     "type": "git",

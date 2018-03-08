@@ -1,6 +1,7 @@
 # WebGL Starter
 
 ![WebGL Logo](./logo.png)
+Simple starter project to start developing with WebGL easily. With Webpack, ES6 transpiling and page reloading.
 
 ## Install
 - Get the files by either:
