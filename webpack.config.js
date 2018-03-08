@@ -29,7 +29,7 @@ const config = {
         include: APP_DIR,
       },
       {
-        test: [/\.vert$/, /\.frag$/],
+        test: [/\.vert$/, /\.frag$/, /\.glsl$/],
         use: ['raw-loader'],
       }
     ],
