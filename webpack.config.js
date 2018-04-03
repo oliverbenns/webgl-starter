@@ -41,10 +41,4 @@ const config = {
   },
 };
 
-if (NODE_ENV === 'production') {
-  config.plugins.push(
-    new webpack.optimize.UglifyJsPlugin()
-  );
-}
-
 module.exports = config;
